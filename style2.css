@@ -4,17 +4,13 @@ body, input, textarea, select, button, table, a {
 }
 
 
-
 * {margin: 0; padding: 0;}
 body {background-color: rgb(255,255,255);}
 #wrap { width: 1000px; height: 900px; margin:0 auto; color:rgb(0,0,0); text-align: center;} 
 #header {width: 1000px; height: 100px; }
 #nav {width: 1000px; height: 100px;}
-#side {float: left; width: 300px; height: 600px; }
-#content1 {float: left; width: 700px; height: 300px;}
-#content2 {float: left; width: 700px; height: 300px;}
+#middle{width: 1000px; height: 600px; }
 #footer {width: 1000px; height: 100px; }
-#middle{overflow: hidden;}
 
 /* 메뉴바 */
 .menu {margin-top: 50px;}
@@ -296,3 +292,37 @@ body {background-color: rgb(255,255,255);}
     font-size: 18px;
   }
   
+  /* search */
+
+ .search h1 {
+    margin-top: 140px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.search h1 span:nth-child(1){
+    color :rgb(66,133,244);
+}
+
+.search h1 span:nth-child(2){
+    color :rgb(234,67,53);
+}
+
+.search h1 span:nth-child(3){
+    color :rgb(251,188,5);
+}
+
+.search h1 span:nth-child(4){
+    color :rgb(66,133,244);
+}
+
+.search h1 span:nth-child(5){
+    color :rgb(52,168,83);
+}
+
+.search h1 span:nth-child(6){
+    color :rgb(52,168,83);
+}
+.search-bar{
+    width: 500px;
+}
